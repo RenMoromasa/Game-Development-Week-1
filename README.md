@@ -33,13 +33,6 @@ Subtopics: Handling input (keyboard/gamepad), physics bodies (rigid/kinematic), 
 ## Gameplay Overview
 This project features two distinct levels of a side-scrolling runner, demonstrating level flow, difficulty scaling, and hazard implementation.
 
-### Mechanics Implemented
-* **Tilemaps/Grid Levels:** Levels are structured to guide the player forward.
-* **Difficulty Curve:** * **Level 1** serves as a tutorial/safe zone with minimal hazards and wide jump margins. 
-  * **Level 2** introduces tighter platforming, multiple consecutive traps, and requires precise timing.
-* **Hazards (No HP System):** Traps are implemented using `Area2D`. If the player's `CharacterBody2D` enters the trap's collision area, the `get_tree().reload_current_scene()` method is triggered, causing an instant reset.
-* **Level Transitions:** Reaching the end of Level 1 triggers a scene change to Level 2, accompanied by an on-screen UI notification alerting the player of the new stage.
-
 ## Screenshots
 ![Level 1 Scene](screenshots/Level1.png)<br>
 *Figure 7: The Level 1.*
