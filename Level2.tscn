@@ -1,0 +1,54 @@
+[gd_scene format=3 uid="uid://bf1nkh86g0mwr"]
+
+[ext_resource type="PackedScene" uid="uid://bmnrmcc4ofoby" path="res://world.tscn" id="1_8mrap"]
+[ext_resource type="Script" uid="uid://3q8rh065ghvd" path="res://label.gd" id="2_q04gf"]
+[ext_resource type="PackedScene" uid="uid://d0lho4c08thi7" path="res://spike_trap.tscn" id="3_s8dg4"]
+
+[node name="World" unique_id=480826868 instance=ExtResource("1_8mrap")]
+
+[node name="AnimatedSprite2D" parent="Player" parent_id_path=PackedInt32Array(262883908) index="0" unique_id=1734661531]
+position = Vector2(26, 443)
+
+[node name="CollisionShape2D" parent="Player" parent_id_path=PackedInt32Array(262883908) index="1" unique_id=556083709]
+position = Vector2(37.75, 475.5625)
+
+[node name="Label" type="Label" parent="." index="2" unique_id=1374359924]
+offset_left = 39.0
+offset_top = 54.0
+offset_right = 93.0
+offset_bottom = 77.0
+text = "Level 2"
+script = ExtResource("2_q04gf")
+
+[node name="SpikeTrap" parent="." index="3" unique_id=313575154 instance=ExtResource("3_s8dg4")]
+position = Vector2(168, 492)
+
+[node name="SpikeTrap2" parent="." index="4" unique_id=1543846773 instance=ExtResource("3_s8dg4")]
+position = Vector2(199, 492)
+
+[node name="SpikeTrap3" parent="." index="5" unique_id=2061088263 instance=ExtResource("3_s8dg4")]
+position = Vector2(335, 492)
+
+[node name="SpikeTrap4" parent="." index="6" unique_id=96013896 instance=ExtResource("3_s8dg4")]
+position = Vector2(367, 492)
+
+[node name="SpikeTrap5" parent="." index="7" unique_id=1359344065 instance=ExtResource("3_s8dg4")]
+position = Vector2(489, 492)
+
+[node name="SpikeTrap6" parent="." index="8" unique_id=502760377 instance=ExtResource("3_s8dg4")]
+position = Vector2(520, 492)
+
+[node name="SpikeTrap7" parent="." index="9" unique_id=415621767 instance=ExtResource("3_s8dg4")]
+position = Vector2(647, 492)
+
+[node name="SpikeTrap9" parent="." index="10" unique_id=468947703 instance=ExtResource("3_s8dg4")]
+position = Vector2(681, 492)
+
+[node name="SpikeTrap10" parent="." index="11" unique_id=1664620404 instance=ExtResource("3_s8dg4")]
+position = Vector2(817, 491)
+
+[node name="SpikeTrap11" parent="." index="12" unique_id=511582926 instance=ExtResource("3_s8dg4")]
+position = Vector2(943, 492)
+
+[node name="SpikeTrap12" parent="." index="13" unique_id=1321943874 instance=ExtResource("3_s8dg4")]
+position = Vector2(975, 492)
