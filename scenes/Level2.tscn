@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://bf1nkh86g0mwr"]
 
-[ext_resource type="PackedScene" uid="uid://bmnrmcc4ofoby" path="res://world.tscn" id="1_8mrap"]
-[ext_resource type="Script" uid="uid://3q8rh065ghvd" path="res://label.gd" id="2_q04gf"]
-[ext_resource type="PackedScene" uid="uid://d0lho4c08thi7" path="res://spike_trap.tscn" id="3_s8dg4"]
+[ext_resource type="PackedScene" uid="uid://bmnrmcc4ofoby" path="res://scenes/world.tscn" id="1_8mrap"]
+[ext_resource type="Script" uid="uid://3q8rh065ghvd" path="res://scripts/label.gd" id="2_q04gf"]
+[ext_resource type="PackedScene" uid="uid://d0lho4c08thi7" path="res://scenes/spike_trap.tscn" id="3_s8dg4"]
 
 [node name="World" unique_id=480826868 instance=ExtResource("1_8mrap")]
 

@@ -1,11 +1,11 @@
 [gd_scene format=4 uid="uid://d3v0shot7448r"]
 
-[ext_resource type="PackedScene" uid="uid://bmnrmcc4ofoby" path="res://world.tscn" id="1_kyxg0"]
+[ext_resource type="PackedScene" uid="uid://bmnrmcc4ofoby" path="res://scenes/world.tscn" id="1_kyxg0"]
 [ext_resource type="Texture2D" uid="uid://c0slldocr6oce" path="res://assets/texture_16px 6.png" id="2_cove1"]
-[ext_resource type="PackedScene" uid="uid://d0lho4c08thi7" path="res://spike_trap.tscn" id="2_mc20k"]
-[ext_resource type="PackedScene" uid="uid://bf1nkh86g0mwr" path="res://Level2.tscn" id="3_dwyiq"]
-[ext_resource type="Script" uid="uid://3q8rh065ghvd" path="res://label.gd" id="3_lmyl5"]
-[ext_resource type="PackedScene" uid="uid://rl4f18qtu063" path="res://level_transition.tscn" id="4_dwyiq"]
+[ext_resource type="PackedScene" uid="uid://d0lho4c08thi7" path="res://scenes/spike_trap.tscn" id="2_mc20k"]
+[ext_resource type="PackedScene" uid="uid://bf1nkh86g0mwr" path="res://scenes/Level2.tscn" id="3_dwyiq"]
+[ext_resource type="Script" uid="uid://3q8rh065ghvd" path="res://scripts/label.gd" id="3_lmyl5"]
+[ext_resource type="PackedScene" uid="uid://rl4f18qtu063" path="res://scenes/level_transition.tscn" id="4_dwyiq"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_dwyiq"]
 texture = ExtResource("2_cove1")

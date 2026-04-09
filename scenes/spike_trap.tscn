@@ -1,19 +1,19 @@
 [gd_scene format=3 uid="uid://d0lho4c08thi7"]
 
-[ext_resource type="Script" uid="uid://dov51uh4sscs5" path="res://spike_trap.gd" id="1_fkc1t"]
-[ext_resource type="Texture2D" uid="uid://csrcipcdxk56u" path="res://assets/spike up.png" id="2_3tqga"]
+[ext_resource type="Script" uid="uid://dov51uh4sscs5" path="res://scripts/spike_trap.gd" id="1_u4qhk"]
+[ext_resource type="Texture2D" uid="uid://csrcipcdxk56u" path="res://assets/spike up.png" id="2_adao6"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_70ean"]
 size = Vector2(19, 26)
 
 [node name="SpikeTrap" type="Area2D" unique_id=313575154]
 position = Vector2(83, 38)
-script = ExtResource("1_fkc1t")
+script = ExtResource("1_u4qhk")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1006211879]
 position = Vector2(8.000002, 3.5000007)
 scale = Vector2(2.0000002, 2.0625002)
-texture = ExtResource("2_3tqga")
+texture = ExtResource("2_adao6")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1749493682]
 position = Vector2(7.5, 7)
